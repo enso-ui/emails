@@ -1,50 +1,53 @@
 {
-    "name": "@enso-ui/emails",
-    "version": "3.0.6",
-    "description": "Emails package",
-    "main": "src/bulma/pages/emails/Index.vue",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/enso-ui/emails.git"
-    },
-    "keywords": [
-        "emails",
-        "vue"
-    ],
-    "author": "Adrian Ocneanu <aocneanu@gmail.com>",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/enso-ui/emails/issues"
-    },
-    "homepage": "https://github.com/enso-ui/emails#readme",
-    "dependencies": {
-        "@enso-ui/datepicker": "^1.1",
-        "@enso-ui/dropdown": "^2.0",
-        "@enso-ui/forms": "^2.0",
-        "@enso-ui/laravel-validation": "^1.0",
-        "@enso-ui/select": "^2.0",
-        "@enso-ui/tables": "^2.0",
-        "@enso-ui/ui": "^4.0",
-        "@fortawesome/fontawesome-svg-core": "^1.2.2",
-        "@fortawesome/free-regular-svg-icons": "^5.2.0",
-        "@fortawesome/free-solid-svg-icons": "^5.2.0",
-        "vue": "^2.5.16",
-        "vuex": "^3.0.0"
-    },
-    "devDependencies": {
-        "@babel/plugin-syntax-dynamic-import": "^7.2.0",
-        "@vue/cli-plugin-babel": "^4.0.5",
-        "@vue/cli-plugin-eslint": "^4.0.5",
-        "@vue/cli-service": "^4.0.5",
-        "@vue/eslint-config-airbnb": "^5.0.0",
-        "autoprefixer": "^9.6.1",
-        "babel-eslint": "^10.0.1",
-        "cross-env": "^6.0.0",
-        "eslint": "^6.8.0",
-        "eslint-import-resolver-alias": "^1.1.2",
-        "eslint-plugin-vue": "^6.0.0"
-    }
+  "name": "@enso-ui/emails",
+  "version": "3.0.6",
+  "description": "Emails package",
+  "main": "src/bulma/pages/emails/Index.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enso-ui/emails.git"
+  },
+  "keywords": [
+    "emails",
+    "vue"
+  ],
+  "author": "Adrian Ocneanu <aocneanu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enso-ui/emails/issues"
+  },
+  "homepage": "https://github.com/enso-ui/emails#readme",
+  "dependencies": {
+    "@enso-ui/datepicker": "^3.1.0",
+    "@enso-ui/dropdown": "^4.1.0",
+    "@enso-ui/forms": "^4.1.0",
+    "@enso-ui/laravel-validation": "^3.1.0",
+    "@enso-ui/select": "^4.1.0",
+    "@enso-ui/tables": "^4.1.0",
+    "@enso-ui/ui": "^7.1.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.2",
+    "@fortawesome/free-regular-svg-icons": "^5.2.0",
+    "@fortawesome/free-solid-svg-icons": "^5.2.0",
+    "vuex": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@vue/cli-plugin-babel": "^4.0.5",
+    "@vue/cli-plugin-eslint": "^4.0.5",
+    "@vue/cli-service": "^4.0.5",
+    "@vue/eslint-config-airbnb": "^5.0.0",
+    "autoprefixer": "^9.6.1",
+    "babel-eslint": "^10.0.1",
+    "cross-env": "^6.0.0",
+    "eslint": "^6.8.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-vue": "^6.0.0",
+    "vue": "^3.5.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  }
 }
