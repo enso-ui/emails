@@ -21,13 +21,6 @@
   },
   "homepage": "https://github.com/enso-ui/emails#readme",
   "dependencies": {
-    "@enso-ui/datepicker": "^3.1.0",
-    "@enso-ui/dropdown": "^4.1.0",
-    "@enso-ui/forms": "^4.1.0",
-    "@enso-ui/laravel-validation": "^3.1.0",
-    "@enso-ui/select": "^4.1.0",
-    "@enso-ui/tables": "^4.1.0",
-    "@enso-ui/ui": "^7.1.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.2",
     "@fortawesome/free-regular-svg-icons": "^5.2.0",
     "@fortawesome/free-solid-svg-icons": "^5.2.0",
@@ -35,6 +28,13 @@
   },
   "devDependencies": {
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@enso-ui/datepicker": "^3.1.0",
+    "@enso-ui/dropdown": "^4.1.0",
+    "@enso-ui/forms": "^4.1.0",
+    "@enso-ui/laravel-validation": "^3.1.0",
+    "@enso-ui/select": "^4.1.0",
+    "@enso-ui/tables": "^4.1.0",
+    "@enso-ui/ui": "^7.1.0",
     "@vue/cli-plugin-babel": "^4.0.5",
     "@vue/cli-plugin-eslint": "^4.0.5",
     "@vue/cli-service": "^4.0.5",
@@ -48,6 +48,13 @@
     "vue": "^3.5.0"
   },
   "peerDependencies": {
+    "@enso-ui/datepicker": "^3.1.0",
+    "@enso-ui/dropdown": "^4.1.0",
+    "@enso-ui/forms": "^4.1.0",
+    "@enso-ui/laravel-validation": "^3.1.0",
+    "@enso-ui/select": "^4.1.0",
+    "@enso-ui/tables": "^4.1.0",
+    "@enso-ui/ui": "^7.1.0",
     "vue": "^3.5.0"
   }
 }
