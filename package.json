@@ -1,7 +1,7 @@
 {
   "name": "@enso-ui/emails",
   "version": "3.0.10",
-  "description": "Emails package",
+  "description": "Email administration pages and editor components for Enso UI.",
   "main": "src/bulma/pages/emails/Index.vue",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,7 @@
     "vue"
   ],
   "author": "Adrian Ocneanu <aocneanu@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/enso-ui/emails/issues"
   },
